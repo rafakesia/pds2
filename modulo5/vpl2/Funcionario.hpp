@@ -7,13 +7,13 @@
 using namespace std;
 
 class Funcionario {
-  public:
-    double salarioBase;
-    string idade, nome;
-    int rgNumber;
+    public:
+        double salarioBase;
+        string idade, nome;
+        int rgNumber;
 
     void print() {
-      cout << "[Funcionario]" << endl << "Idade: " << idade << endl << "Numero do RG: " << rgNumber << endl;
+        cout << "[Funcionario]" << endl << "Idade: " << idade << endl << "Numero do RG: " << rgNumber << endl;
     }
 };
 
