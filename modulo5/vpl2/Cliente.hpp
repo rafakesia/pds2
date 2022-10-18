@@ -7,7 +7,7 @@ using namespace std;
 class Cliente{
   public:
     string nome, endereco;
-	int cep;
+    int cep;
     void print();
 };
 
