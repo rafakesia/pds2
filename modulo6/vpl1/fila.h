@@ -4,40 +4,40 @@
 
 struct No;
 
-// Fila de números inteiros.
+// Fila de numeros inteiros.
 class Fila {
-  public:
-    // Representa uma exceção que ocorre quando a fila está vazia.
-    // Ela não tem estado, já que toda fila vazia é igual.
-    // Consequetemente, sua implementação é vazia.
-    class ExcecaoFilaVazia {};
+    public:
+        // Representa uma excecao que ocorre quando a fila esta vazia.
+        // Ela nao tem estado, ja que toda fila vazia eh igual.
+        // Consequetemente, sua implementacao eh vazia.
+        class ExcecaoFilaVazia {};
   
-    // Constrói uma fila vazia.
-    Fila();
+        // Constroi uma fila vazia.
+        Fila();
     
-    // Insere um elemento no fim da fila.
-    void Inserir(int k);
+        // Insere um elemento no fim da fila.
+        void Inserir(int k);
     
-    // Retorna o elemento no início da fila.
-    // Lança uma exceção do tipo EmptyException caso a fila esteja vazia.
-    int primeiro() const;
+        // Retorna o elemento no inicio da fila.
+        // Lança uma exceção do tipo EmptyException caso a fila esteja vazia.
+        int primeiro() const;
 
-    // Retorna o elemento no fim da fila.
-    // Lança uma exceção do tipo EmptyException caso a fila esteja vazia.
-    int ultimo() const;
+        // Retorna o elemento no fim da fila.
+        // Lança uma excecao do tipo EmptyException caso a fila esteja vazia.
+        int ultimo() const;
 
-    // Remove o elemento no início da fila.
-    // Lança uma exceção do tipo EmptyException caso a fila esteja vazia.
-    void RemoverPrimeiro(); 
+        // Remove o elemento no início da fila.
+        // Lança uma exceção do tipo EmptyException caso a fila esteja vazia.
+        void RemoverPrimeiro(); 
     
-    // Retorna o número de elementos na fila.
-    int tamanho() const;
+        // Retorna o número de elementos na fila.
+        int tamanho() const;
     
-  std::list<int> myFila;
+        std::list<int> myFila;
     
-  private:
-    No* primeiro_;    
-    No* ultimo_;
+    private:
+        No* primeiro_;    
+        No* ultimo_;
 };
 
 #endif  // FILA_H
