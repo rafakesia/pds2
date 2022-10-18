@@ -6,8 +6,8 @@
 using namespace std;
 
 Nave::Nave(Ponto2D _posicao, double _forca){
-	posicao = _posicao;
-	forca = _forca;
+    posicao = _posicao;
+    forca = _forca;
 }
 
 void Nave::mover(double dx, double dy){
