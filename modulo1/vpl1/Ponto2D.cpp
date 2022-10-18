@@ -5,7 +5,7 @@
 
 Ponto2D::Ponto2D(double _x, double _y){
     x = _x;
-	y = _y;
+    y = _y;
 };
 
 double Ponto2D::calcular_distancia(Ponto2D* ponto){
