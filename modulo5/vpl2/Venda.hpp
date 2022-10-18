@@ -8,13 +8,13 @@
 using namespace std;
 
 class Venda{
-  public:
-    double valor;
-    string descricao, cliente;
-    Especialista esp;
+    public:
+        double valor;
+        string descricao, cliente;
+        Especialista esp;
     
     void print(){
-      cout << "Especialista: " << esp.nome << endl << "Cliente: " << cliente;
+        cout << "Especialista: " << esp.nome << endl << "Cliente: " << cliente;
     }
 };
 
